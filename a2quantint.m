@@ -1,7 +1,16 @@
 function [u, uint] = a2quantint(p, scale)
 %A2QUANT quantization with the A2 (hexagonal) lattice
+% input:
 %   p - point to be quantized
+%   scale - linear scale to be applied during quantization (adjusting
+%   linear dimensions of the quantizers cells)
+% output:
 %   u - lattice point coordinates (closest to p)
+%   uint - integer lattice coordinates
+
+% Marcin Kuropatwiński (c)
+% 
+% 2019.06.17
 
 p = p/scale;
 
