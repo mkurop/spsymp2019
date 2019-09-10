@@ -5,7 +5,7 @@
 % It ilustrates the estimation of the region of high probability and the
 % usage of the progress bar mentioned in the paper.
 
-% Marcin Kuropatwiński (c)
+% Marcin Kuropatwinski (c)
 %
 % 2019.09.02
 
@@ -27,7 +27,7 @@ alpha = 1.4;
 
 % number of samples used in the experiment (need to be high to be sure it
 % suffices for estimation of the region of high probability)
-num_samples = 100000;
+num_samples = 1000000;
 
 % generation of the three component, two dimensional random GMM object
 % and estimate the high probability region probability PrB
