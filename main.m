@@ -12,6 +12,7 @@
 % input settings
 clc
 close all
+rng(1000)
 % the equiprobability level for truncation of the test GMM, 
 level = 0.0001; 
 
